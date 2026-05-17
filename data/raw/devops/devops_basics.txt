@@ -1,0 +1,22 @@
+# Что такое DevOps?
+
+DevOps (Development + Operations) — это набор практик, объединяющих разработку и IT-операции.
+
+## Основные принципы DevOps:
+1. CI/CD (Continuous Integration/Continuous Delivery)
+2. Автоматизация всего, что можно автоматизировать
+3. Мониторинг и логирование
+4. Infrastructure as Code (IaC)
+
+## CI/CD пайплайн включает:
+- Сборка кода
+- Запуск тестов
+- Создание артефактов
+- Деплой на окружения
+
+## Популярные инструменты DevOps:
+- Git - контроль версий
+- Jenkins/GitLab CI - CI/CD
+- Docker - контейнеризация
+- Kubernetes - оркестрация
+- Grafana/Prometheus - мониторинг
