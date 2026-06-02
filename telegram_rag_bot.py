@@ -103,7 +103,7 @@ def get_answer_from_rag(question: str) -> str:
 
 def get_answer_from_general(question: str) -> str:
 	"""
-	Получение ответа от общей LLM (OpenRouter)
+	Получение ответа от общей LLM
 	"""
 	try:
 		response = openai_client.chat.completions.create(
