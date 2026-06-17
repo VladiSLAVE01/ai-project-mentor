@@ -91,8 +91,6 @@ def get_answer_from_rag(question: str) -> str:
 		answer = f"📖 **На основе базы знаний:**\n\n"
 		answer += result['answer']
 
-		# Добавляем подсказку про источники
-		answer += f"\n\n✅ Найдено {result['num_sources']} релевантных источника"
 
 		return answer
 

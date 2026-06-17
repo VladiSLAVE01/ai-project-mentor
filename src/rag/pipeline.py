@@ -73,7 +73,8 @@ class RAGPipeline:
 
                 # Добавляем информацию об источниках в конец ответа
                 sources_text = self._format_sources(results)
-                response = f"{response}\n\n{sources_text}"
+                #response = f"{response}\n\n{sources_text}"
+                response = response
             except Exception as e:
                 print(f" Ошибка LLM: {e}")
                 response = self._format_search_results(question, results)

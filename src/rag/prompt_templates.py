@@ -33,8 +33,8 @@ class PromptEngineer:
 			source = result['metadata'].get('filename', 'Неизвестный источник')
 			relevance = result.get('score', 0)
 
-			part = f"[ИСТОЧНИК {i}] (релевантность: {relevance:.2f})\n"
-			part += f"Категория: {category}\n"
+			# part = f"[ИСТОЧНИК {i}] (релевантность: {relevance:.2f})\n"
+			part = f"Категория: {category}\n"
 			part += f"Файл: {source}\n"
 			part += f"Содержание:\n{result['content']}\n"
 			context_parts.append(part)
